@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Art/Npc/Npc-2.tres" type="SpriteFrames" id=1]
+[ext_resource path="res://Assets/Scenes/Npc/Base/Npc_base.tscn" type="PackedScene" id=2]
+
+[node name="Alex" type="Node2D"]
+
+[node name="Npc_Ai" parent="." instance=ExtResource( 2 )]
+MAX_SPEED = 110.0
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Npc_Ai"]
+frames = ExtResource( 1 )
+animation = "Idle"
