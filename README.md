@@ -1,2 +1,2 @@
 # Godot-LangNpc
- An simple 2D Plaftormer NPC AI for Godot Engine
+ Simple 2D Plaftormer NPC AI for Godot Engine
